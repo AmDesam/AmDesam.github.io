@@ -1,0 +1,81 @@
+{
+  "_index": "kafka-log",
+  "_type": "_doc",
+  "_id": "C4R3HZcBKmKocnA3siXL",
+  "_version": 1,
+  "_score": 1,
+  "_source": {
+    "request_id": 6562,
+    "process.serviceName": "PokemonBattleKafkaProd",
+    "level": "error",
+    "message": "Покемон отсутствует в базе данных (ID 114797)(pokemons_ids)",
+    "context": {
+      "kafka_message": {
+        "trainer_id": 35282,
+        "date_from": "2024-08-01T09:00",
+        "date_to": "2024-09-05T09:00",
+        "pokemons_ids": [
+          114794,
+          114797
+        ],
+        "battle_result": "win"
+      }
+    },
+    "startTimeMillis": "2025-05-29T22:14:33.290070+03:00",
+    "trace": "kafka_app.py 203 строчка"
+  },
+  "fields": {
+    "process.serviceName.keyword": [
+      "PokemonBattleKafkaProd"
+    ],
+    "startTimeMillis": [
+      "2025-05-29T19:14:33.290Z"
+    ],
+    "level": [
+      "error"
+    ],
+    "context.kafka_message.pokemons_ids": [
+      114794,
+      114797
+    ],
+    "context.kafka_message.trainer_id.keyword": [
+      "35282"
+    ],
+    "message": [
+      "Покемон отсутствует в базе данных (ID 114797)(pokemons_ids)"
+    ],
+    "context.kafka_message.date_to": [
+      "2024-09-05T09:00:00.000Z"
+    ],
+    "context.kafka_message.battle_result.keyword": [
+      "win"
+    ],
+    "context.kafka_message.trainer_id": [
+      "35282"
+    ],
+    "trace": [
+      "kafka_app.py 203 строчка"
+    ],
+    "context.kafka_message.battle_result": [
+      "win"
+    ],
+    "trace.keyword": [
+      "kafka_app.py 203 строчка"
+    ],
+    "level.keyword": [
+      "error"
+    ],
+    "process.serviceName": [
+      "PokemonBattleKafkaProd"
+    ],
+    "message.keyword": [
+      "Покемон отсутствует в базе данных (ID 114797)(pokemons_ids)"
+    ],
+    "context.kafka_message.date_from": [
+      "2024-08-01T09:00:00.000Z"
+    ],
+    "request_id": [
+      6562
+    ]
+  }
+}
