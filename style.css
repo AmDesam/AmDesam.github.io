@@ -1,6 +1,9 @@
 body {
   font-family: "Helvetica";
   background-image: url('https://images.wallpaperscraft.ru/image/single/fon_gradient_volna_207449_3840x2400.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: #24292f;
   display: flex;
   flex-direction: column;
@@ -80,7 +83,7 @@ body {
   border-bottom: none;
 }
 
-.linsk__link,
+.links__link,
 .links__link:visited {
   text-decoration: none;
   color: #0969da;
